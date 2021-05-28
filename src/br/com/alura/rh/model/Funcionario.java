@@ -58,8 +58,9 @@ public class Funcionario {
 		return salario;
 	}
 
-	public void setSalario(BigDecimal salario) {
-		this.salario = salario;
+	public void atualizaSalario(BigDecimal novoSalario) {
+		this.salario = novoSalario;
+		this.dataUltimoReajuste = LocalDate.now();
 	}
 
 	public LocalDate getDataUltimoReajuste() {

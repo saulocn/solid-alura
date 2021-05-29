@@ -6,4 +6,4 @@ Estudo de SOLID através da plataforma do Alura.
 * O: Open-Closed Principle
 * L: Liskov Substitution Principle
 * I: Iinterface Segregation Principle
-* D: Dependency Inversion Principl
+* D: Dependency Inversion Principle
